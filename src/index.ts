@@ -2,8 +2,6 @@ import { Hono } from 'hono'
 import { html } from 'hono/html'
 
 const app = new Hono<{ Bindings: { DB: D1Database } }>()
-
-// --- HTML Template Helper ---
 const layout = (content: any) => html`
 <!DOCTYPE html>
 <html lang="en">
