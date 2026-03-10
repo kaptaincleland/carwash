@@ -1,0 +1,19 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "car-wash-app",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-03-01",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "carwashdb",
+			"database_id": "aa027f22-1ce5-4264-ae88-0e022b92a754"
+		}
+	],
+	"observability": {
+		"enabled": true
+	},
+	"compatibility_flags": [
+		"nodejs_compat"
+	]
+}
