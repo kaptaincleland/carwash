@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "car-wash-app",
+	"name": "carwash-dashboard",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-03-01",
 	"d1_databases": [
