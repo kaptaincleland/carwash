@@ -12,5 +12,8 @@
 		"@types/node": "^25.4.0",
 		"typescript": "^5.5.2",
 		"wrangler": "^4.71.0"
+	},
+	"dependencies": {
+		"hono": "^4.12.7"
 	}
 }
